@@ -185,3 +185,9 @@ void SortArray(T* start, T* end) {
 		return x < y;
 	});
 }
+
+template<class T>
+void DeleteElement(vector<T>& v, size_t i) {
+	v[i] = v[v.size() - 1];
+	v.pop_back();
+}
