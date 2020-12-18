@@ -187,7 +187,12 @@ void SortArray(T* start, T* end) {
 }
 
 template<class T>
-void DeleteElement(vector<T>& v, size_t i) {
+void EraseSwap(vector<T>& v, size_t i) {
 	v[i] = v[v.size() - 1];
 	v.pop_back();
+}
+
+template<class T>
+void EraseShift(vector<T>& v, size_t i) {
+	v.erase(v.begin() + i);
 }
