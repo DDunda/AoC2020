@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day 17", "Day 17\Day 17\Day
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day 18", "Day 18\Day 18\Day 18.vcxproj", "{507A0CD6-C524-42D5-BF0E-3FBB5ED1CBEA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day 19", "Day 19\Day 19\Day 19.vcxproj", "{5471DEBF-A5FA-4BCB-9DC2-4E3D732CCAE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,11 +193,19 @@ Global
 		{507A0CD6-C524-42D5-BF0E-3FBB5ED1CBEA}.Release|x64.Build.0 = Release|x64
 		{507A0CD6-C524-42D5-BF0E-3FBB5ED1CBEA}.Release|x86.ActiveCfg = Release|Win32
 		{507A0CD6-C524-42D5-BF0E-3FBB5ED1CBEA}.Release|x86.Build.0 = Release|Win32
+		{5471DEBF-A5FA-4BCB-9DC2-4E3D732CCAE6}.Debug|x64.ActiveCfg = Debug|x64
+		{5471DEBF-A5FA-4BCB-9DC2-4E3D732CCAE6}.Debug|x64.Build.0 = Debug|x64
+		{5471DEBF-A5FA-4BCB-9DC2-4E3D732CCAE6}.Debug|x86.ActiveCfg = Debug|Win32
+		{5471DEBF-A5FA-4BCB-9DC2-4E3D732CCAE6}.Debug|x86.Build.0 = Debug|Win32
+		{5471DEBF-A5FA-4BCB-9DC2-4E3D732CCAE6}.Release|x64.ActiveCfg = Release|x64
+		{5471DEBF-A5FA-4BCB-9DC2-4E3D732CCAE6}.Release|x64.Build.0 = Release|x64
+		{5471DEBF-A5FA-4BCB-9DC2-4E3D732CCAE6}.Release|x86.ActiveCfg = Release|Win32
+		{5471DEBF-A5FA-4BCB-9DC2-4E3D732CCAE6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {89FF6449-03B4-476E-A34A-D0F848520F50}
+		SolutionGuid = {37812591-679D-43C0-AC2D-8F08E3AF7BB0}
 	EndGlobalSection
 EndGlobal
