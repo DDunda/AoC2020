@@ -183,7 +183,7 @@ void main()
 				if (fieldindex != -1) {
 					columnNames[c] = name;
 					toAnalyse[c] = NULL;
-					DeleteElement(remainingFields, fieldindex);
+					EraseSwap(remainingFields, fieldindex);
 				}
 			}
 		}

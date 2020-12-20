@@ -196,3 +196,8 @@ template<class T>
 void EraseShift(vector<T>& v, size_t i) {
 	v.erase(v.begin() + i);
 }
+
+template<class T>
+void AppendVector(vector<T>& v1, vector<T>& v2) {
+	for (T v : v2) v1.push_back(v);
+}
